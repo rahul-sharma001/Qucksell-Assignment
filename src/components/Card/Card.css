@@ -1,0 +1,51 @@
+.cardContainer{
+    width: 100%;
+    border: 2px solid rgb(249, 244, 244);    
+    padding: 10px;
+    background-color: rgba(234, 226, 226, 0.796);
+    border-radius: 8px;
+    margin: 8px 0px;
+}
+
+.cardContainer > *{
+    width: 100%;
+}
+
+.Cardcontainer2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.showStatus{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.cardTags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.tag {
+    color: grey;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}

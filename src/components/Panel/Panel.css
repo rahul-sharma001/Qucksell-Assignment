@@ -1,0 +1,30 @@
+
+.dashContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 10px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.leftView{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.dashCardContainer{
+    display: flex;
+    border-radius: 8px;
+    padding: 3px;
+    align-content: center;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px 5px;
+    width: 300px;
+}
